@@ -9,6 +9,8 @@ import com.nagarro.nagp.DevopsAssignment.service.StringService;
 @RestController
 public class Controller {
 
+	private String A;
+	
 	@Autowired
 	private StringService stringService;
 
