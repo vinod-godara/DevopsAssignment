@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.nagarro.nagp.DevopsAssignment.service.StringService;
+
 public class StringServiceTest {
 
 	private StringService stringService;
@@ -15,7 +17,7 @@ public class StringServiceTest {
 
 	@Test
 	public void testGetString() {
-		final String expectedString = "DEVOPS ASSIGNMENT";
+		final String expectedString = "Hello There!";
 
 		final String actualString = stringService.getString();
 
