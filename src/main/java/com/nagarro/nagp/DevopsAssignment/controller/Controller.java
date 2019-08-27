@@ -12,7 +12,7 @@ public class Controller {
 	@Autowired
 	private StringService stringService;
 
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String home() {
 		return stringService.getString();
 	}
